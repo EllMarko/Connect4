@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/projet.css">
+    <link rel="stylesheet" type="text/css" href="Css/accueilp4.css">
+
+    <title>Projet : Puissance 4</title>
+</head>
+<body>
+
+    <header>
+        <div id="right_header">
+            <a href="Homepage.html" class="btn-back">Back Home</a>
+        </div>
+        <div id="mid_header">
+            <a href="Homepage.html"><img id="logo" src="images/logo.png"; alt="logo" width="500"; height="100px"></a>
+        </div>
+        <div id="bottom_header">
+    
+        </div>
+    </header>
+    
+    <script src="projet.js"></script>
+
+    <div id="jeu">
+        <div id='boutons'>
+            <button id="col0" onclick="placePawn(col0);"><img src="images/images.png" height="80.8px"width='80.8px'></button>
+            <button id="col1" onclick="placePawn(col1);"><img src="images/images.png" height="80.8px"width='80.8px'></button>
+            <button id="col2" onclick="placePawn(col2);"><img src="images/images.png" height="80.8px"width='80.8px'></button>
+            <button id="col3" onclick="placePawn(col3);"><img src="images/images.png" height="80.8px"width='80.8px'></button>
+            <button id="col4" onclick="placePawn(col4);"><img src="images/images.png" height="80.8px"width='80.8px'></button>
+            <button id="col5" onclick="placePawn(col5);"><img src="images/images.png" height="80.8px"width='80.8px'></button>
+            <button id="col6" onclick="placePawn(col6);"><img src="images/images.png" height="80.8px"width='80.8px'></button>
+        </div>
+        <div class="grid" id="game">
+        
+        </div>
+            <div class="hud">
+
+                <div class="current-player red" id="curentPlayer"></div>
+        
+                <div class="score" id="score">
+                
+                </div>
+        
+                <div class="inputs">
+
+                    <div class="grid-specs">
+                        <span>Grille</span>
+                        <input type="number" value= 5 id="cols">
+                        <input type="number" value= 6 id="rows">
+                    </div>
+            
+                    <div class="time"><span>Temps écoulé : <span id="timer"></span></span></div>
+            
+                    <div class="buttons">
+                        <button class="reset-game" onclick="btnreset()">Reset</button>
+                        <button value="New" class="new-game" onclick="start()"> New </button>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

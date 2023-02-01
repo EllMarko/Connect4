@@ -1,0 +1,123 @@
+@import "../fontawesome/css/all.css";
+
+body {
+    font-family: Trebuchet MS, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    background-color: #f3eac1;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+}
+
+#accueil{
+    display: flex;
+    flex-direction: column;
+    margin: 15%;
+}
+
+.btn-grad {
+background-image: linear-gradient(to right, #E64237 0%, #E6C93E  51%, #E64237  100%);
+margin: 10px;
+padding: 15px 45px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 50% auto;
+color: white;            
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+display: block;
+}
+
+.btn-grad:hover {
+background-position: right center;
+color: #fff;
+text-decoration: none;
+}
+
+/* #btn-time {
+background-image: linear-gradient(to right, #ec514d 0%, #f5b462  51%, #ec514d  100%);
+margin: 10px;
+padding: 15px 45px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 50% auto;
+color: white;            
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+display: block;
+}
+
+#btn-time:hover {
+background-position: right center;
+color: #fff;
+text-decoration: none;
+} */
+
+#right_header {
+    width:15%;
+}
+
+#mid_header {
+    width:70%;
+    text-align: center;
+}
+
+#left_header {
+    width:15%;
+}
+
+.btn-back {
+background-image: linear-gradient(to right, #E64237 0%, #E6C93E  51%, #E64237  100%);
+margin: 10px;
+padding: 15px 45px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 50% auto;
+color: white;            
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+display: block;
+margin-top: 25px;
+margin-left: 50px;
+}
+
+.btn-back:hover {
+background-position: right center;
+color: #fff;
+text-decoration: none;
+}
+
+#regles {
+    background-image: linear-gradient(to right, #E64237 0%, #E6C93E  51%, #E64237  100%);
+    margin: 13%;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 50% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    }
+
+#jeu {
+    background-image: linear-gradient(to right, #E64237 0%, #E6C93E  51%, #E64237  100%);
+    margin: 13%;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 50% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    }

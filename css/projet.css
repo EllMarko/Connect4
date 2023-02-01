@@ -1,0 +1,104 @@
+
+
+* {
+    box-sizing: border-box;
+    padding: auto;
+    margin: auto;
+}
+
+.game {
+    --grid-spacing: 5px;
+    --hole-size: 60px;
+    --empty-hole-color: white;
+    --yellow: #ffae02;
+    --dark-yellow: #645f00b9;
+    --red: #fe0000;
+    --dark-red: rgba(103, 0, 0, 0.687);
+    --blue: #002ae0;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.hud {
+    --hud-padding: 10px;
+    position: relative;
+    width: 700px;
+    padding: var(--hud-padding);
+    background-color: #313131;
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+    margin: auto;
+
+}
+
+.hud .current-player {
+    position: absolute;
+    top: var(--hud-padding);
+    left: var(--hud-padding);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+.hud .current-player.yellow {
+    background-color: var(--yellow);
+}
+
+.hud .current-player.red {
+    background-color: var(--red);
+}
+
+.hud .score {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.hud .inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud .inputs .time {
+    font-size: 1em;
+}
+
+.hud .inputs .grid-specs, .hud .inputs .buttons {
+    width: 40%;
+}
+
+.hud .inputs .grid-specs input {
+    width: 2rem;
+    border: none;
+    text-align: center;
+    font-family: Poppins;
+}
+
+.hud .inputs .grid-specs span {
+    margin-right: .5em;
+}
+
+
+.hud .inputs .buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hud .inputs .buttons button {
+    border: none;
+    padding: .25em .8em;
+    font-family: Poppins;
+    background-color: #6b6b6b;
+    color: white;
+    font-size: 1em;
+}
+
+
+body #game td{
+    background-color: #002ae0;
+}
+
+.game {
+    margin: auto;
+}
